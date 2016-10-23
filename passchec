@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string> // library for c++ strings
+
+using namespace std;
+
+int main()
+{
+	const string PASSWORD = "12";
+	string password;
+	cout << "Enter Password : ";
+	cin >> password;
+	if( password == PASSWORD)
+	{
+		cout << "You have unlocked the password, secret message PIZZA!!" << endl;
+	}
+	else
+	{
+		cout << "Invalid login details" << endl;
+	}
+{
+	return 0;
+}
+}
